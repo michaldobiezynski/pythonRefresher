@@ -11,10 +11,25 @@ name = "Michal"
 #     print("You are younger than 18")
 
 
-def hello(name="Sean", age=0):
-    return "Hello {} you are {}".format(name, age)
+# def hello(name="Sean", age=0):
+#     return "Hello {} you are {}".format(name, age)
 
 
-sentence = hello("Michal", 17)
-print(sentence)
-print(hello())
+# sentence = hello("Michal", 17)
+# print(sentence)
+# print(hello())
+
+
+dognames = ["Fido", "Sean", "Sally", "Mark"]
+
+print(dognames)
+
+dognames.insert(0, "Jane")
+
+print(dognames)
+
+del(dognames[2])
+
+dognames[2] = "Jane"
+
+print(dognames[2])
