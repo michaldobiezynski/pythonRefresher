@@ -22,14 +22,27 @@ name = "Michal"
 
 dognames = ["Fido", "Sean", "Sally", "Mark"]
 
-print(dognames)
+for dog in dognames:
+    print(dog)
 
-dognames.insert(0, "Jane")
+# for s in range(1, 10):
+#     print(s)
 
-print(dognames)
+age = 0
 
-del(dognames[2])
+while age < 18:
+    print(age)
+    age += 1
 
-dognames[2] = "Jane"
 
-print(dognames[2])
+# print(dognames)
+
+# dognames.insert(0, "Jane")
+
+# print(dognames)
+
+# del(dognames[2])
+
+# dognames[2] = "Jane"
+
+# print(dognames[2])
