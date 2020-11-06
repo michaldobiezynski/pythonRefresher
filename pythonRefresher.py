@@ -20,19 +20,19 @@ name = "Michal"
 # print(hello())
 
 
-dognames = ["Fido", "Sean", "Sally", "Mark"]
+# dognames = ["Fido", "Sean", "Sally", "Mark"]
 
-for dog in dognames:
-    print(dog)
+# for dog in dognames:
+#     print(dog)
 
 # for s in range(1, 10):
 #     print(s)
 
-age = 0
+# age = 0
 
-while age < 18:
-    print(age)
-    age += 1
+# while age < 18:
+#     print(age)
+#     age += 1
 
 
 # print(dognames)
@@ -46,3 +46,14 @@ while age < 18:
 # dognames[2] = "Jane"
 
 # print(dognames[2])
+
+
+dogs = {"Fido": 8, "Sally": 17, "Sean": 2}
+
+print(dogs["Sally"])
+
+dogs["Sarah"] = 6
+
+dogs["Fido"] = 6
+
+print(dogs)
